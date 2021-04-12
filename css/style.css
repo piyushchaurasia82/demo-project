@@ -1,0 +1,204 @@
+body{
+	box-sizing: border-box;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	background: #f5f7fb;
+}
+
+a{
+	text-decoration: none !important;
+	color: inherit;
+
+}
+
+input,button,textarea{
+	outline: 0 !important;
+}
+
+a:hover{
+	text-decoration: none !important;
+	color: inherit;
+
+}
+
+h1{
+	font-weight: 700;
+}
+
+/*header css start*/
+.logo_img{
+    width: 182px;
+    position: relative;
+	z-index: 1;
+}
+
+.header{
+	position: absolute;
+	width: 100%;
+	color:#fff;
+	padding: 18px 0;
+}
+
+.top_ul{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	list-style: none;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.logo_div::after{
+	content: '';
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	height: 250px;
+	left: -19px;
+	transform: rotate(-25deg);
+	border-radius: 44px;
+	top: -189px;
+	z-index: 0;
+}
+
+
+/*header css end*/
+
+/*top section css start*/
+.top_sec{
+	background: #47a6e9;
+	width: 100%;
+	height: 100vh;
+}
+
+.top_text{
+	font-weight: 700;
+}
+
+.w_25 img{
+	width: 25%;
+}
+
+.new_mob::after{
+	content: '';
+	position: absolute;
+	background: #fff;
+	height: 238px;
+	border-bottom-right-radius: 54px;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 50px;
+	width: 29%;
+	left: 99px;
+	top: 66px;
+	right: 0;
+	transform: skew(10deg, 10deg);
+	margin: auto;
+	z-index: 0;
+	bottom: 0;
+
+}
+
+.mob_img{
+	position: relative;
+	z-index: 2;
+}
+
+/*top section css end*/
+
+
+/*second section css start*/
+
+.new_grey{
+	color: #8e8d8d;
+}
+
+.icn_bk{
+	background: #fff;
+	height: 55px;
+	width: 60px;
+	/*margin: auto;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	border-radius: 10px;
+	margin-bottom: 1rem !important;
+}
+
+.icn_bk i{
+	color: #436bb3;
+}
+
+.feature_mob img{
+	width: 60%;
+	margin: auto;
+	display: flex;
+	position: relative;
+	z-index: 1;
+}
+
+.feature_mob::after{
+	content: '';
+	position: absolute;
+	background: #fff;
+	width: 341px;
+	height: 335px;
+	left: 29px;
+	border-radius: 168px;
+	z-index: 0;
+	top: 16px;
+	margin: auto;
+	right: 0;
+}
+
+.feature_mob{
+	overflow: hidden;
+}
+
+/*second section css end*/
+
+/*agora css start*/
+
+.touch_fm input{
+
+    overflow: visible;
+    width: 48%;
+    border: none;
+    margin-bottom: 1rem;
+    height: 44px;
+    padding:15px;
+    background: #e9eef1;
+    border-radius: 2px;
+    font-size: 12px;
+
+}
+.touch_fm textarea{
+
+    overflow: visible;
+    width:100%;
+    border: none;
+    margin-bottom: 1rem;
+    padding:15px;
+    background: #e9eef1;
+    border-radius: 2px;
+    font-size: 12px;
+
+}
+
+.sub_btn{
+	border: 2px solid #436bb3;
+	background: none;
+	border-radius: 50px;
+	width: 25%;
+	height: 50px;
+	display: flex;
+	color: #436bb3;
+	align-items: center;
+	margin: auto;
+	font-weight: 600;
+	justify-content: center;
+}
+
+/*agora css end*/
