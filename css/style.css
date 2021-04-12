@@ -202,3 +202,37 @@ h1{
 }
 
 /*agora css end*/
+
+/*footer css start*/
+
+footer{
+	background:#1b459b;
+	color: #fff;
+}
+
+footer p{
+	font-size: 12px;
+	margin-bottom: 0.5rem;
+}
+
+footer h5{
+	font-size: 16px;
+}
+
+footer .log_div{
+	background: #fff;
+    padding:5px 15px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 32%;
+}
+
+footer .all_ic{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:15%;
+    font-size: 12px;
+}
+
+/*footer css end*/
