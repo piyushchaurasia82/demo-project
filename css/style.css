@@ -236,3 +236,34 @@ footer .all_ic{
 }
 
 /*footer css end*/
+
+/*.swiper-slide img{
+	width: 100%;
+}*/
+
+.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: block;
+    }
+
+     .swiper-slide {
+      background-position: center;
+      background-size:150px 300px;
+      width: 150px !important;
+      height:300px !important;
+
+    }
+
+    .swiper-slide-active{
+    	width:180px !important;
+      height:330px !important;
+      background-size:180px 330px;
+    }
+
+    .swiper-wrapper{
+    	transform: translate3d(284.5px, 0px, 0px);
+    }
+
+    
